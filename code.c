@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
+
 #define MAX_BOOKS 100
 #define DATA_FILE "library_books.dat"
 
@@ -53,6 +54,7 @@ void menu() {
 
         clearInputBuffer(); // Clear input buffer after each menu selection
 
+        // Handle the user's choice.
         switch (choice) {
             case 1:
                 addBook();
